@@ -1,0 +1,84 @@
+<style>
+  @media(min-width:468px) {
+    .container-1 {
+      display: flex;
+      flex-wrap: wrap;
+
+    }
+
+    .container-2 {
+      display: flex;
+      justify-content: space-between;
+
+
+
+    }
+
+
+    .container-1 div,
+    .container-2 div {
+      border: 1px #cccccc solid;
+      padding: 10px;
+      margin: 5px
+    }
+
+    .container-1-box-1 {
+      flex: 3;
+      order: 2;
+      align-self: center;
+    }
+
+    .container-1-box-2 {
+      flex: 1;
+      order: 1;
+    }
+
+    .container-1-box-3 {
+      flex: 1;
+      order: 3;
+    }
+
+    .container-2-box {
+      width: 27%;
+    }
+</style>
+
+<html>
+
+<body>
+  <div class="container-1">
+    <div class="container-1-box-1">
+      <h1>Box1</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic atque cumque laborum ipsam sequi odio velit</p>
+    </div>
+    <div class="container-1-box-2">
+      <h1>Box2</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing accusantium! Tempore ratione perferendis nobis, quod facilis
+        nostrum omnis aliquid amet?</p>
+    </div>
+    <div class="container-1-box-3">
+      <h1>Box3</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste earum temporibus ducimus
+      </p>
+    </div>
+  </div>
+
+  <div class="container-2">
+    <div class="container-2-box">
+      <h1>Box4</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic atque cumque laborum ipsam sequi odio velit</p>
+    </div>
+    <div class="container-2-box">
+      <h1>Box5</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing accusantium! Tempore ratione perferendis nobis, quod facilis
+        nostrum omnis aliquid amet?</p>
+    </div>
+    <div class="container-2-box">
+      <h1>Box6</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste earum temporibus ducimus
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
